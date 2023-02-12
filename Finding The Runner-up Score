@@ -1,0 +1,11 @@
+if __name__ == '__main__':
+    n = int(input())   #scores
+    arr = map(int, input().split())   #get the values and split with tab space
+    arr=list(set(arr))                #set is used to remove duplicate value
+    for i in range(0,n):              #range is giver for number of input scores
+        arr.sort(reverse=True)        #sorting in decending order
+    print(arr[1])                     #access the second largest value
+    
+    #following can be used for sorting in assending order
+        #arr.sort()        
+    #print(arr[-2])
