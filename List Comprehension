@@ -1,0 +1,17 @@
+if __name__=='__main__':
+    x = int(input())     
+    y = int(inp ut())                                   # i,j,k are the values inside range from user x,y,z
+    z = int(input())
+    n = int(input())
+    lst=[]                                              #initializing a list variable
+    for i in range (x+1):                               # combination of x range and increment
+        for j in range(y+1):                            # combination of y range and increment
+            for k in range (z+1):                       # combination of z range and increment
+                sum = i+j+k
+                if sum ==n:
+                    continue                            # when sum ==n that particular alone skips
+                lst.append([i,j,k])                     #its outside if,it add all elements onto list
+    print(lst,end="")                                   #after apending all it gets printed
+                            
+                    
+        
