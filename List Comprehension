@@ -12,6 +12,4 @@ if __name__=='__main__':
                     continue                            # when sum ==n that particular alone skips
                 lst.append([i,j,k])                     #its outside if,it add all elements onto list
     print(lst,end="")                                   #after apending all it gets printed
-                            
-                    
-        
+                        
